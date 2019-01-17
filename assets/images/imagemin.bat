@@ -1,0 +1,1 @@
+imagemin-power ./* --out-dir=out --plugins=pngquant

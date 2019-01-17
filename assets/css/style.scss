@@ -1,0 +1,16 @@
+---
+---
+
+@import 'ubuild.scss';
+
+html, body {
+    overflow-x: hidden;
+}
+
+.block-hero-2 .column.media img {
+    transition: all 1ms ease;
+}
+
+img.shadow {
+    box-shadow: 0 0 50px rgba(0,0,0, 0.7);
+}

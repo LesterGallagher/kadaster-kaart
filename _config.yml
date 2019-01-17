@@ -1,0 +1,34 @@
+title: Kadaster Kaart
+author: Sem Postma
+email: support@esstudio.site
+
+description: >-
+  ubuild-jekyll is a Jekyll theme desgined to work with Forestry's Blocks feature. 
+  This theme provides a set of page-level components and a pre-configured Forestry Blocks UI 
+  that will empower content editors to construct their own webpages.
+baseurl: /ubuild
+# Build settings
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" # this ensures all content renders with layouts/default.html
+markdown: kramdown
+gems:
+  - jekyll-feed
+sass:
+  style: compressed
+  sass_dir: _sass
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
