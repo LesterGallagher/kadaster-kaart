@@ -24,7 +24,7 @@ page_sections:
   content: Met de Kadaster kaart app/website kunt u gemakkelijk informatie opzoeken over percelen die geregistreerd staan bij het Kadaster.
   cta:
     enabled: true
-    url: 
+    url: https://play.google.com/store/apps/details?id=com.EchoSierraStudio.Kadaster_Kaart
     button_text: 'Bekijk op Google Play'
   image:
     image: "/uploads/2018/06/21/product-shot-1.png"
