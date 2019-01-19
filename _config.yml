@@ -13,8 +13,9 @@ defaults:
     values:
       layout: "default" # this ensures all content renders with layouts/default.html
 markdown: kramdown
-gems:
-  - jekyll-feed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 sass:
   style: compressed
   sass_dir: _sass
