@@ -18,7 +18,7 @@ if (headerImg) {
     document.addEventListener('orientationchange', onSroll);
     
     function onSroll(e) {
-        headerImg.style.transform = 'translateY(' + (window.scrollY * - 0.5) + 'px)';
+        headerImg.style.transform = 'translateY(' + (window.scrollY * -0.2) + 'px)';
     }
 }
 
